@@ -6,3 +6,6 @@
 /* global $ */
 
 // DOCUMENT READY FUNCTION BELOW
+$("#shoot").click(function(){
+  let userchoice=(".").val();
+});
