@@ -7,5 +7,12 @@
 
 // DOCUMENT READY FUNCTION BELOW
 $("#shoot").click(function(){
-  let userchoice=(".").val();
+  let userchoice=$("#input").val();
+//   if(userchoice){
+     
+//      }
 });
+function rpsrandom(){
+  
+  
+}
