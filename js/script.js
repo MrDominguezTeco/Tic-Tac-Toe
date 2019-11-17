@@ -17,7 +17,9 @@ $("#shoot").click(function(){
   // paper=2
   // scissors=3
   if(num===1||userchoice==="rock"){
-    
+    $("#userChoice").text("Rock");
+    $("#computerChoice").text("Rock");
+    $("#result").text("Draw");
      }
   else if(num===1||userchoice==="paper"){
     
@@ -29,7 +31,9 @@ $("#shoot").click(function(){
     
      }
   else if(num===2||userchoice==="paper"){
-    
+    $("#userChoice").text("Paper");
+    $("#computerChoice").text("Paper");
+    $("#result").text("Draw");
      }
   else if(num===2||userchoice==="scissors"){
     
@@ -41,7 +45,9 @@ $("#shoot").click(function(){
     
      }
   else if(num===3||userchoice==="scissors"){
-    
+    $("#userChoice").text("Scissors");
+    $("#computerChoice").text("Scissors");
+    $("#result").text("Draw");
      }
   // assigning names to numbers / filling in variable 
   // if( opp==="rock"||userchoice==="" ){
