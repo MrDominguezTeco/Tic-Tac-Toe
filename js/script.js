@@ -8,16 +8,11 @@
 // DOCUMENT READY FUNCTION BELOW
 $("#shoot").click(function(){
   let userchoice=$("#input").val();
+  // gets value from input
   let num = Math.random()*3;
   num = Math.ceil(num);
   console.log(num);
-  // num = Math.ceil(num)
-  // console.log(num);
-//   if(userchoice){
-     
-//      }
+  // random number generator
+  if()
+ 
 });
-function rpsrandom(){
-  
-  
-}
