@@ -13,6 +13,17 @@ $("#shoot").click(function(){
   num = Math.ceil(num);
   console.log(num);
   // random number generator
-  if()
- 
+  if(num==="1"){
+    let opp="rock";
+     }
+  if(num==="2"){
+    let opp="paper";
+     }
+  if(num===3){
+    let opp="scissors";
+     }
+  // assigning names to numbers
+  if(numm){
+     
+     }
 });
