@@ -25,16 +25,16 @@ $("#shoot").click(function(){
   else if(num===1||userchoice==="scissors"){
     
      }
-  else if(num===2||userchoice==="ro"){
-    
-     }
-  else if(num===2||userchoice==="scissors"){
+  else if(num===2||userchoice==="rock"){
     
      }
   else if(num===2||userchoice==="paper"){
     
      }
-  else if(num===3||userchoice==="scissors"){
+  else if(num===2||userchoice==="scissors"){
+    
+     }
+  else if(num===3||userchoice==="rock"){
     
      }
   else if(num===3||userchoice==="paper"){
