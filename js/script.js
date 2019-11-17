@@ -8,8 +8,9 @@
 // DOCUMENT READY FUNCTION BELOW
 $("#shoot").click(function(){
   let userchoice=$("#input").val();
-  let num = Math.random(0,3.0);
-  console.log(num)
+  let num = Math.random()*3;
+  num = Math.ceil();
+  console.log(num);
   // num = Math.ceil(num)
   // console.log(num);
 //   if(userchoice){
