@@ -17,47 +17,47 @@ $("#shoot").click(function(){
   // paper=2
   // scissors=3
   if(num===1||userchoice==="rock"){
-    $("#userChoice").text("Rock");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Rock");
     $("#result").text("Draw");
      }
   else if(num===1||userchoice==="paper"){
-    $("#userChoice").text("Paper");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Rock");
     $("#result").text("You Win!");
      }
   else if(num===1||userchoice==="scissors"){
-    $("#userChoice").text("Scissors");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Rock");
     $("#result").text("Computer Wins");
      }
   else if(num===2||userchoice==="rock"){
-    $("#userChoice").text("Rock");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Paper");
     $("#result").text("Computer Wins");
      }
   else if(num===2||userchoice==="paper"){
-    $("#userChoice").text("Paper");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Paper");
     $("#result").text("Draw");
      }
   else if(num===2||userchoice==="scissors"){
-    $("#userChoice").text("Scissors");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Paper");
     $("#result").text("You Win!");
      }
   else if(num===3||userchoice==="rock"){
-    $("#userChoice").text("Rock");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Scissors");
     $("#result").text("You Win!");
      }
   else if(num===3||userchoice==="paper"){
-    $("#userChoice").text("Paper");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Scissors");
     $("#result").text("Computer Wins");
      }
   else if(num===3||userchoice==="scissors"){
-    $("#userChoice").text("Scissors");
+    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Scissors");
     $("#result").text("Draw");
      }
