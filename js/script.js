@@ -9,7 +9,7 @@
 $("#shoot").click(function(){
   let userchoice=$("#input").val();
   let num = Math.random()*3;
-  num = Math.ceil();
+  num = Math.ceil(num);
   console.log(num);
   // num = Math.ceil(num)
   // console.log(num);
