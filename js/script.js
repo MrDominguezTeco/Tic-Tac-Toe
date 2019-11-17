@@ -13,17 +13,19 @@ $("#shoot").click(function(){
   num = Math.ceil(num);
   console.log(num);
   // random number generator
-  if(num==="1"){
+  let opp=""
+  // assigning empty variable to be filled later
+  if(num===1){
     let opp="rock";
      }
-  if(num==="2"){
+  if(num===2){
     let opp="paper";
      }
   if(num===3){
     let opp="scissors";
      }
-  // assigning names to numbers
-  if(numm){
+  // assigning names to numbers / filling in variable 
+  if( opp ==="scissors"){
      
      }
 });
