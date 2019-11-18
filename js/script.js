@@ -9,9 +9,8 @@
 $("#shoot").click(function() {
   let userchoice = $("#input").val();
   $("#userChoice").text(userchoice);
-  userchoice.toLowerCase();
-  // gets value from input and prints text
-  console.log(userchoice);
+  let yourmove=userchoice.toLowerCase();
+  // gets value from input making it lowercase and prints text 
   let num = Math.random() * 3;
   num = Math.ceil(num);
   console.log(num);
@@ -19,33 +18,35 @@ $("#shoot").click(function() {
   // rock=1
   // paper=2
   // scissors=3
-  if (num === 1 & userchoice === "rock") {
+  if (num === 1 & yourmove === "rock") {
     $("#computerChoice").text("Rock");
     $("#result").text("Draw");
-  } else if (num === 1 & userchoice === "paper") {
+  } else if (num === 1 & yourmove === "paper") {
     $("#computerChoice").text("Rock");
     $("#result").text("You Win!");
-  } else if (num === 1 & userchoice === "scissors") {
+  } else if (num === 1 & yourmove === "scissors") {
     $("#computerChoice").text("Rock");
     $("#result").text("Computer Wins");
-  } else if (num === 2 & userchoice === "rock") {
+  } else if (num === 2 & yourmove === "rock") {
     $("#computerChoice").text("Paper");
     $("#result").text("Computer Wins");
-  } else if (num === 2 & userchoice === "paper") {
+  } else if (num === 2 & yourmove === "paper") {
     $("#computerChoice").text("Paper");
     $("#result").text("Draw");
-  } else if (num === 2 & userchoice === "scissors") {
+  } else if (num === 2 & yourmove === "scissors") {
     $("#computerChoice").text("Paper");
     $("#result").text("You Win!");
-  } else if (num === 3 & userchoice === "rock") {
+  } else if (num === 3 & yourmove === "rock") {
     $("#computerChoice").text("Scissors");
     $("#result").text("You Win!");
-  } else if (num === 3 & userchoice === "paper") {
+  } else if (num === 3 & yourmove === "paper") {
     $("#computerChoice").text("Scissors");
     $("#result").text("Computer Wins");
-  } else if (num === 3 & userchoice === "scissors") {
+  } else if (num === 3 & yourmove === "scissors") {
     $("#computerChoice").text("Scissors");
     $("#result").text("Draw");
+  }else{
+    $("#result").text("Ummm please choose rock, paper, or scissor");
   }
   // conditionals to print computers choice based on number 
   // and print winner loser or draw 
