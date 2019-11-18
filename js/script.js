@@ -9,7 +9,9 @@
 $("#shoot").click(function() {
   let userchoice = $("#input").val();
   $("#userChoice").text(userchoice);
+  userchoice.toLowerCase();
   // gets value from input and prints text
+  console.log(userchoice);
   let num = Math.random() * 3;
   num = Math.ceil(num);
   console.log(num);
@@ -45,10 +47,6 @@ $("#shoot").click(function() {
     $("#computerChoice").text("Scissors");
     $("#result").text("Draw");
   }
-  // assigning names to numbers / filling in variable
-  // if( opp==="rock"||userchoice==="" ){
-
-  // }
-  console.log(userchoice);
-  console.log(num);
+  // conditionals to print computers choice based on number 
+  // and print winner loser or draw 
 });
