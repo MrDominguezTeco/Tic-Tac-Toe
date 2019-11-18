@@ -8,6 +8,7 @@
 // DOCUMENT READY FUNCTION BELOW
 $("#shoot").click(function(){
   let userchoice=$("#input").val();
+  $("#userChoice").text(userchoice);
   // gets value from input
   let num = Math.random()*3;
   num = Math.ceil(num);
@@ -17,47 +18,38 @@ $("#shoot").click(function(){
   // paper=2
   // scissors=3
   if(num===1||userchoice==="rock"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Rock");
     $("#result").text("Draw");
      }
   else if(num===1||userchoice==="paper"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Rock");
     $("#result").text("You Win!");
      }
   else if(num===1||userchoice==="scissors"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Rock");
     $("#result").text("Computer Wins");
      }
   else if(num===2||userchoice==="rock"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Paper");
     $("#result").text("Computer Wins");
      }
   else if(num===2||userchoice==="paper"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Paper");
     $("#result").text("Draw");
      }
   else if(num===2||userchoice==="scissors"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Paper");
     $("#result").text("You Win!");
      }
   else if(num===3||userchoice==="rock"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Scissors");
     $("#result").text("You Win!");
      }
   else if(num===3||userchoice==="paper"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Scissors");
     $("#result").text("Computer Wins");
      }
   else if(num===3||userchoice==="scissors"){
-    $("#userChoice").text(userchoice);
     $("#computerChoice").text("Scissors");
     $("#result").text("Draw");
      }
