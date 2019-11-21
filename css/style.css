@@ -9,3 +9,9 @@
 h1{
   font-family: 'Tomorrow', sans-serif;
 }
+.mymoves{
+  display:none;
+}
+.oppmoves{
+  display:none;
+}
