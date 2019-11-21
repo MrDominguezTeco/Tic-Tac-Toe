@@ -13,7 +13,6 @@ $("#shoot").click(function() {
   // gets value from input making it lowercase and prints text 
   let num = Math.random() * 3;
   num = Math.ceil(num);
-  console.log(num);
   // random number generator
   // rock=1
   // paper=2
@@ -46,7 +45,7 @@ $("#shoot").click(function() {
     $("#computerChoice").text("Scissors");
     $("#result").text("Draw");
   }else{
-    $("#result").text("Ummm please choose rock, paper, or scissor");
+    $("#result").text("Ummm please choose rock, paper, or scissors. Caps don't but spelling does.");
   }
   // conditionals to print computers choice based on number 
   // and print winner loser or draw 
