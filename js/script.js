@@ -54,14 +54,17 @@ $("#shoot").click(function() {
     $("#result").text("You Win!");
   } else if (num === 3 & yourmove === "paper") {
     $("#computerChoice").text("Scissors");
-    $("#").show();
+    $("#paper").show();
+    $("#scissors2").show();
     $("#result").text("Computer Wins");
   } else if (num === 3 & yourmove === "scissors") {
     $("#computerChoice").text("Scissors");
+    $("#scissors").show();
+    $("#scissors2").show();
     $("#result").text("Draw");
   }else{
     $("#result").text("Ummm please choose rock, paper, or scissors. Caps don't but spelling does.");
   }
-  // conditionals to print computers choice based on number 
-  // and print winner loser or draw 
+  // conditionals to print computers choice/mychoice based on number 
+  // and print winner, loser, or draw 
 });
