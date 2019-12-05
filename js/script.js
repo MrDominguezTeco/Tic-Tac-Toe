@@ -87,6 +87,6 @@ let computerwins=0;
      //    cost = cost + parseInt(cost);
      //    console.log(all);
      // });
- $("UC").append(`<h4>${} </h4>`);
+ $("#UC").append(`<h4> $[yourwins]</h4>`);
   
 });
