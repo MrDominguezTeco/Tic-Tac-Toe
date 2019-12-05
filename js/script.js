@@ -74,4 +74,12 @@ $("#shoot").click(function() {
   }
   // conditionals to print computers choice/mychoice based on number
   // and print winner, loser, or draw
+  
+     //  var all = 0;
+     // itemPrices.forEach(function(cost){
+     //    cost = cost + parseInt(cost);
+     //    console.log(all);
+     // });
+  let yourwins=[];
+  ;et y
 });
