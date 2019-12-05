@@ -23,8 +23,7 @@ $("#shoot").click(function() {
   $("#rock2").hide();
   $("#paper2").hide();
   $("#scissors2").hide();
-  
-  
+
   if ((num === 1) & (yourmove === "rock")) {
     $("#computerChoice").text("Rock");
     $("#rock2").show();
@@ -48,7 +47,7 @@ $("#shoot").click(function() {
   } else if ((num === 2) & (yourmove === "paper")) {
     $("#computerChoice").text("Paper");
     $("#paper2").show();
-     $("#paper").show();
+    $("#paper").show();
     $("#result").text("Draw");
   } else if ((num === 2) & (yourmove === "scissors")) {
     $("#computerChoice").text("Paper");
@@ -63,7 +62,7 @@ $("#shoot").click(function() {
   } else if ((num === 3) & (yourmove === "paper")) {
     $("#computerChoice").text("Scissors");
     $("#scissors2").show();
-     $("#paper").show();
+    $("#paper").show();
     $("#result").text("Computer Wins");
   } else if ((num === 3) & (yourmove === "scissors")) {
     $("#computerChoice").text("Scissors");
@@ -71,9 +70,7 @@ $("#shoot").click(function() {
     $("#scissors").show();
     $("#result").text("Draw");
   } else {
-    $("#result").text(
-      "Ummm please choose rock, paper, or scissors. Caps don't but spelling does."
-    );
+    $("#result").text("Not Valid Input");
   }
   // conditionals to print computers choice/mychoice based on number
   // and print winner, loser, or draw
