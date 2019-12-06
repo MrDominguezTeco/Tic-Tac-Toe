@@ -4,6 +4,7 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+$("body").css("overflow", "hidden");
 let yourwins=0;
 let computerwins=0;
 // DOCUMENT READY FUNCTION BELOW
@@ -88,6 +89,6 @@ $("#shoot").click(function() {
      //    cost = cost + parseInt(cost);
      //    console.log(all);
      // });
-  $('#yourscore').text(computerwins);
-
+  $('#yourscore').text(yourwins);
+  $('#computerscore').text(computerwins);
 });

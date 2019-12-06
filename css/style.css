@@ -4,16 +4,18 @@
 
 #choices {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 h1{
   font-family: 'Tomorrow', sans-serif;
 }
 .mymoves{
   display:none;
+  width:100px;
 }
 .oppmoves{
   display:none;
+  width:100px;
 }
 #img{
   width:250px;
