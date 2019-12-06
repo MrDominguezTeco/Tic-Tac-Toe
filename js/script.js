@@ -82,7 +82,7 @@ let computerwins=0;
     $("#result").text("Not Valid Input");
   }
   // conditionals to print computers choice/mychoice based on number
-  // and print winner, loser, or draw
+  // and prints winner, loser, or draw
   
      //  var all = 0;
      // itemPrices.forEach(function(cost){
