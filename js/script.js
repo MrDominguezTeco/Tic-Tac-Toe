@@ -89,5 +89,6 @@ let computerwins=0;
      //    cost = cost + parseInt(cost);
      //    console.log(all);
      // });
+  $('#UC').after(yourwins);
 
 });
