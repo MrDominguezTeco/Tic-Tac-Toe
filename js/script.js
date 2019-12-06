@@ -23,8 +23,10 @@ $("#shoot").click(function() {
   $("#rock2").hide();
   $("#paper2").hide();
   $("#scissors2").hide();
+  // hides all images 
 let yourwins=0;
 let computerwins=0;
+  
   if ((num === 1) & (yourmove === "rock")) {
     $("#computerChoice").text("Rock");
     $("#rock2").show();
@@ -87,6 +89,6 @@ let computerwins=0;
      //    cost = cost + parseInt(cost);
      //    console.log(all);
      // });
- $("#UC").append(`<h4> $[yourwins]</h4>`);
+ $("#UC").append(` ${yourwins}`);
   
 });
