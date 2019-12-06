@@ -4,7 +4,8 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
+let yourwins=0;
+let computerwins=0;
 // DOCUMENT READY FUNCTION BELOW
 $("#shoot").click(function() {
   let userchoice = $("#input").val();
@@ -24,8 +25,7 @@ $("#shoot").click(function() {
   $("#paper2").hide();
   $("#scissors2").hide();
   // hides all images 
-let yourwins=0;
-let computerwins=0;
+
   if ((num === 1) & (yourmove === "rock")) {
     $("#computerChoice").text("Rock");
     $("#rock2").show();
@@ -88,6 +88,6 @@ let computerwins=0;
      //    cost = cost + parseInt(cost);
      //    console.log(all);
      // });
-  $('#yourscore').text(yourwins);
+  $('#yourscore').text(computerwins);
 
 });
